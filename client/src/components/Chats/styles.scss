@@ -1,0 +1,49 @@
+.chats {
+    width: 400px;
+    height: 100%;
+    border-right: 1px solid gray;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid gray;
+    
+    &__img {
+        margin: 0 12px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+
+        .img-fc {
+            width: 40px !important;
+            height: 40px !important;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 1.2rem;
+
+        &__msg {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .chat {
+        height: 58px;
+    }
+}

@@ -1,0 +1,14 @@
+.content {
+    width: 1280px;
+    max-height: 785px;
+    margin: 0 auto;
+    background-color: rgb(18, 46, 90);
+    border-radius: 20px;
+    display: flex;
+}
+
+@media screen and (max-width: 1344px) {
+    .content {
+        width: 100%;
+    }
+}

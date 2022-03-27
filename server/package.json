@@ -1,0 +1,33 @@
+{
+  "name": "messenger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/config": "0.0.41",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^12.20.47",
+    "eslint": "^8.11.0",
+    "nodemon": "^2.0.15",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.2"
+  }
+}
