@@ -9,6 +9,8 @@ In the project directory, you can run:
 ### Development 
 ```
 make install
+
+# Launch in parallel terminals
 make serv-up
 make client-up
 ```
