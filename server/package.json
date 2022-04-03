@@ -14,9 +14,9 @@
     "mongoose": "^6.2.7"
   },
   "scripts": {
-    "start": "tsc && node dist/index.js",
     "build": "tsc",
-    "dev": "nodemon src/index.js"
+    "start": "tsc && node dist/index.js",
+    "test": "nodemon src/index.js"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.2",

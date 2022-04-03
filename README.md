@@ -10,7 +10,7 @@ In the project directory, you can run:
 ```
 make install
 
-# Launch in parallel terminals
+# Launch next commands in parallel terminals:
 make serv-up
 make client-up
 ```

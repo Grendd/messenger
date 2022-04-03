@@ -5,7 +5,7 @@ compile:
 	npm build --prefix server
 
 serv-up:
-	npm start --prefix server
+	npm test --prefix server
 
 client-up:
 	npm start --prefix client
